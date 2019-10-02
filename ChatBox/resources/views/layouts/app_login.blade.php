@@ -7,6 +7,7 @@
     <title>Swipe – The Simplest Chat Platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="#">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <link href="{{ asset('chat/dist/css/lib/bootstrap.min.css') }}" type="text/css" rel="stylesheet">
     <link href="{{ asset('chat/dist/css/swipe.min.css') }}" type="text/css" rel="stylesheet">
     <link href="{{ asset('chat/dist/img/favicon.png') }}" type="image/png" rel="icon">
@@ -33,7 +34,12 @@
     @yield('content')
 </div>
 <!-- Layout -->
-<script src="{{ asset('chat/dist/js/vendor/jquery-slim.min.js') }}"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="{{ asset('chat/dist/js/message_send.js') }} "></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="{{ asset('chat/dist/js/vendor/popper.min.js') }}"></script>
 <script src="{{ asset('chat/dist/js/vendor/feather.min.js') }}"></script>
 <script src="{{ asset('chat/dist/js/vendor/eva.min.js') }}"></script>

@@ -22,126 +22,50 @@
                         <button type="button" class="btn round" data-toggle="modal" data-target="#compose"><i data-eva="edit-2"></i></button>
                         <hr>
                         <ul class="nav discussions" role="tablist">
-                            <li>
-                                <a href="#chat1" class="filter direct active" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat1" aria-selected="true">
-                                    <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                    <div class="content">
-                                        <div class="headline">
-                                            <h5>Ham Chuwon</h5>
-                                            <span>Today</span>
-                                        </div>
-                                        <p>Please review and sign the binding agreement.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat1" class="filter direct" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat1" aria-selected="false">
-                                    <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-2.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                    <div class="content">
-                                        <div class="headline">
-                                            <h5>Quincy Hensen</h5>
-                                            <span>Today</span>
-                                        </div>
-                                        <p>Additional information about the previous clients.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat1" class="filter direct" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat1" aria-selected="false">
-                                    <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                    <div class="content">
-                                        <div class="headline">
-                                            <h5>Mark Hog</h5>
-                                            <span>Feb 23</span>
-                                        </div>
-                                        <p>I'm looking to get a quote for the move from LA to NY.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat1" class="filter direct" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat1" aria-selected="false">
-                                    <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-4.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                    <div class="content">
-                                        <div class="headline">
-                                            <h5>Sanne Viscaal</h5>
-                                            <span>Jan 18</span>
-                                        </div>
-                                        <p>My delivery address is pending final confirmation.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat1" class="filter direct" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat1" aria-selected="false">
-                                    <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                    <div class="content">
-                                        <div class="headline">
-                                            <h5>Alex Just</h5>
-                                            <span>May 2</span>
-                                        </div>
-                                        <p>Sending all the requested insurance documents.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat2" class="filter groups" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat2" aria-selected="false">
-                                    <div class="content">
-                                        <div class="headline">
-                                            <img src="chat/dist/img/avatars/avatar-group-1.jpg" alt="avatar">
-                                            <h5>The Musketeers</h5>
-                                            <span>Today</span>
-                                        </div>
-                                        <p>Please review and sign the binding agreement.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat2" class="filter groups" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat2" aria-selected="false">
-                                    <div class="content">
-                                        <div class="headline">
-                                            <img src="{{ asset('chat/dist/img/avatars/avatar-group-2.jpg') }}" alt="avatar">
-                                            <h5>Watts Up</h5>
-                                            <span>Today</span>
-                                        </div>
-                                        <p>Additional information about the previous clients.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat2" class="filter groups" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat2" aria-selected="false">
-                                    <div class="content">
-                                        <div class="headline">
-                                            <img src="{{ asset('chat/dist/img/avatars/avatar-group-3.jpg') }}" alt="avatar">
-                                            <h5>Memes</h5>
-                                            <span>Feb 23</span>
-                                        </div>
-                                        <p>I'm looking to get a quote for the move from LA to NY.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat2" class="filter groups" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat2" aria-selected="false">
-                                    <div class="content">
-                                        <div class="headline">
-                                            <img src="{{ asset('chat/dist/img/avatars/avatar-group-4.jpg') }}" alt="avatar">
-                                            <h5>Supernovas</h5>
-                                            <span>Jan 18</span>
-                                        </div>
-                                        <p>My delivery address is pending final confirmation.</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#chat2" class="filter groups" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat2" aria-selected="false">
-                                    <div class="content">
-                                        <div class="headline">
-                                            <img src="{{ asset('chat/dist/img/avatars/avatar-group-5.jpg') }}" alt="avatar">
-                                            <h5>Squad Ghouls</h5>
-                                            <span>May 2</span>
-                                        </div>
-                                        <p>Sending all the requested insurance documents.</p>
-                                    </div>
-                                </a>
-                            </li>
+                            @foreach($chats_list as $chat_list)
+                                @if($loop->first)
+                                    <li>
+                                        <p hidden id="first_id">{{$chat_list->id}}</p>
+                                        <a href="#chat{{$chat_list->id}}" onclick="send_message({{$chat_list->id}})" class="filter direct active" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat1" aria-selected="true">
+                                            @foreach( $profiles as $profile)
+                                                @if($profile->friend_id == $chat_list->id)
+                                                    <div class="status online"><img src="storage/profiles/{{$profile->picture}}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                                    @break
+                                                @else
+                                                <!-- Nothing Do -->
+                                                @endif
+                                            @endforeach
+                                            <div class="content">
+                                                <div class="headline">
+                                                    <h5>{{ $chat_list->name }}</h5>
+                                                    <span>Today</span>
+                                                </div>
+                                                <p>Please review and sign the binding agreement.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                @else
+                                    <li>
+                                        <a href="#chat{{$chat_list->id}}" onclick="send_message({{$chat_list->id}})" class="filter direct" data-chat="open" data-toggle="tab" role="tab" aria-controls="chat1" aria-selected="false">
+                                            @foreach( $profiles as $profile)
+                                                @if($profile->friend_id == $chat_list->id)
+                                                    <div class="status offline"><img src="storage/profiles/{{$profile->picture}}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                                    @break
+                                                @else
+                                                <!-- Nothing Do -->
+                                                @endif
+                                            @endforeach
+                                            <div class="content">
+                                                <div class="headline">
+                                                    <h5>{{ $chat_list->name }}</h5>
+                                                    <span>Today</span>
+                                                </div>
+                                                <p>Additional information about the previous clients.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                @endif
+                            @endforeach
                         </ul>
                     </div>
                 </div>
@@ -162,15 +86,27 @@
                                 @foreach( $friends as $friend )
                                     <li>
                                         <a href="#">
-                                            <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                            @if( $friend->is_login == 0)
+                                                <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                            @else
+                                                <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                            @endif
                                             <div class="content">
                                                 <h5>{{ $friend->name }}</h5>
-                                                <span>Florida, US</span>
+                                                @foreach( $profiles as $profile)
+                                                    @if($profile->friend_id == $friend->friend_id)
+                                                        <span>{{ $profile->city }}, {{ $profile->country }}</span>
+                                                        @break
+                                                    @else
+                                                        <!-- Nothing Do -->
+                                                    @endif
+                                                @endforeach
                                             </div>
                                             <div class="icon"><i data-eva="person"></i></div>
                                         </a>
                                     </li>
                                 @endforeach
+
                             @else
                                 <li>No</li>
                             @endif
@@ -222,8 +158,8 @@
                             <img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar">
                         </label>
                         <div class="content">
-                            <h5>Ham Chuwon</h5>
-                            <span>Florida, US</span>
+                            <h5>{{ $user->name }}</h5>
+                            <span>{{ $user->profile->city }}, {{ $user->profile->country }}</span>
                         </div>
                     </div>
                     <h4>Settings</h4>
@@ -497,703 +433,385 @@
     <!-- Start of Chat -->
     <div class="chat">
         <div class="tab-content">
-            <!-- Start of Chat Room -->
-            <div class="tab-pane fade show active" id="chat1" role="tabpanel">
-                <div class="item">
-                    <div class="content">
-                        <div class="container">
-                            <div class="top">
-                                <div class="headline">
-                                    <img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar">
-                                    <div class="content">
-                                        <h5>Quincy Hensen</h5>
-                                        <span>Away</span>
+            @foreach( $chats_list_detail as $chat_list_detail_key => $chat_list_detail)
+                <!-- Start of Chat Room -->
+                    <div class="tab-pane fade show active" id="chat{{$chat_list_detail_key}}" role="tabpanel">
+                        <p>the is is {{$chat_list_detail_key}}</p>
+                        <div class="item">
+                            <div class="content">
+                                <div class="container">
+                                    <div class="top">
+                                        <div class="headline">
+                                            @foreach( $profiles as $profile)
+                                                @if($profile->friend_id == $chat_list_detail_key)
+                                                    <img src="storage/profiles/{{$profile->picture}}" alt="avatar">
+                                                    @break
+                                                @else
+                                                <!-- Nothing Do -->
+                                                @endif
+                                            @endforeach
+                                            <div class="content">
+                                                @foreach( $chats_list as $chat_list)
+                                                    @if( $chat_list->id == $chat_list_detail_key)
+                                                        <h5>{{$chat_list->name}}</h5>
+                                                    @else
+                                                        <!-- Nothong Done -->
+                                                    @endif
+                                                @endforeach
+                                                <span>Away</span>
+                                            </div>
+                                        </div>
+                                        <ul>
+                                            <li><button type="button" class="btn"><i data-eva="video" data-eva-animation="pulse"></i></button></li>
+                                            <li><button type="button" class="btn"><i data-eva="phone" data-eva-animation="pulse"></i></button></li>
+                                            <li><button type="button" class="btn" data-toggle="modal" data-target="#compose"><i data-eva="person-add" data-eva-animation="pulse"></i></button></li>
+                                            <li><button type="button" class="btn" data-utility="open"><i data-eva="info" data-eva-animation="pulse"></i></button></li>
+                                            <li><button type="button" class="btn round" data-chat="open"><i data-eva="arrow-ios-back"></i></button></li>
+                                            <li><button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical" data-eva-animation="pulse"></i></button>
+                                                <div class="dropdown-menu">
+                                                    <button type="button" class="dropdown-item"><i data-eva="video"></i>Video call</button>
+                                                    <button type="button" class="dropdown-item"><i data-eva="phone"></i>Voice call</button>
+                                                    <button type="button" class="dropdown-item" data-toggle="modal" data-target="#compose"><i data-eva="person-add"></i>Add people</button>
+                                                    <button type="button" class="dropdown-item" data-utility="open"><i data-eva="info"></i>Information</button>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <ul>
-                                    <li><button type="button" class="btn"><i data-eva="video" data-eva-animation="pulse"></i></button></li>
-                                    <li><button type="button" class="btn"><i data-eva="phone" data-eva-animation="pulse"></i></button></li>
-                                    <li><button type="button" class="btn" data-toggle="modal" data-target="#compose"><i data-eva="person-add" data-eva-animation="pulse"></i></button></li>
-                                    <li><button type="button" class="btn" data-utility="open"><i data-eva="info" data-eva-animation="pulse"></i></button></li>
-                                    <li><button type="button" class="btn round" data-chat="open"><i data-eva="arrow-ios-back"></i></button></li>
-                                    <li><button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical" data-eva-animation="pulse"></i></button>
-                                        <div class="dropdown-menu">
-                                            <button type="button" class="dropdown-item"><i data-eva="video"></i>Video call</button>
-                                            <button type="button" class="dropdown-item"><i data-eva="phone"></i>Voice call</button>
-                                            <button type="button" class="dropdown-item" data-toggle="modal" data-target="#compose"><i data-eva="person-add"></i>Add people</button>
-                                            <button type="button" class="dropdown-item" data-utility="open"><i data-eva="info"></i>Information</button>
-                                        </div>
-                                    </li>
-                                </ul>
+                                <div class="middle scroll" >
+                                    <div class="container">
+                                        <ul><?php $my_turn = 0?>
+                                        @foreach( $chats_list as $chat_list)
+                                                @if ($chat_list_detail_key == $chat_list->id)
+                                                    @for($i=0; $i<=(count($chat_list_detail)-1); $i++)
+                                                        @if( $chat_list_detail[$i]->sender_id == $user->id and $my_turn ==0)
+                                                            <li></li>
+                                                            <li>
+                                                                <div class="content">
+                                                                    <div class="message">
+                                                                        <div class="bubble">
+                                                                            <p>{{$chat_list_detail[$i]->text}}, ( {{$chat_list_detail[$i]->sender_id}} )</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <span>{{$chat_list_detail[$i]->created_at}}</span>
+                                                                </div>
+                                                            </li>
+                                                            <?php $my_turn = 0 ?>
+                                                        @elseif( $chat_list_detail[$i]->sender_id != $user->id and $my_turn == 0)
+                                                            <li>
+                                                                @foreach( $profiles as $profile)
+                                                                    @if($profile->friend_id == $chat_list->id)
+                                                                        <img src="storage/profiles/{{$profile->picture}}" alt="avatar">
+                                                                        @break
+                                                                    @else
+                                                                    <!-- Nothing Do -->
+                                                                    @endif
+                                                                @endforeach
+                                                                <div class="content">
+                                                                    <div class="message">
+                                                                        <div class="bubble">
+                                                                            <p>{{$chat_list_detail[$i]->text}}, ( {{$chat_list_detail[$i]->sender_id}} )</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <span>{{$chat_list_detail[$i]->created_at}}</span>
+                                                                </div>
+                                                            </li>
+                                                            <?php $my_turn = 1 ?>
+                                                        @elseif( $chat_list_detail[$i]->sender_id == $user->id and $my_turn == 1)
+                                                            <li>
+                                                                <div class="content">
+                                                                    <div class="message">
+                                                                        <div class="bubble">
+                                                                            <p>{{$chat_list_detail[$i]->text}}, ( {{$chat_list_detail[$i]->sender_id}} )</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <span>{{$chat_list_detail[$i]->created_at}}</span>
+                                                                </div>
+                                                            </li>
+                                                            <?php $my_turn = 0 ?>
+                                                        @elseif( $chat_list_detail[$i]->sender_id != $user->id and $my_turn == 1)
+                                                            <li></li>
+                                                            <li>
+                                                                @foreach( $profiles as $profile)
+                                                                    @if($profile->friend_id == $chat_list->id)
+                                                                        <img src="storage/profiles/{{$profile->picture}}" alt="avatar">
+                                                                        @break
+                                                                    @else
+                                                                    <!-- Nothing Do -->
+                                                                    @endif
+                                                                @endforeach
+                                                                <div class="content">
+                                                                    <div class="message">
+                                                                        <div class="bubble">
+                                                                            <p>{{$chat_list_detail[$i]->text}}, ( {{$chat_list_detail[$i]->sender_id}} )</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <span>{{$chat_list_detail[$i]->created_at}}</span>
+                                                                </div>
+                                                            </li>
+                                                            <?php $my_turn = 1 ?>
+                                                        @else
+
+                                                        @endif
+
+                                                    @endfor
+                                                @else
+                                                    <!-- Nothing Done -->
+                                                @endif
+                                            @endforeach
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="bottom">
+                                        <form>
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <p hidden id="sender_id">{{$user->id}}</p><p hidden id="reciever_id">{{$chat_list_detail_key}}</p>
+                                            <textarea id="send_message_text_{{$chat_list_detail_key}}" onclick="check({{$chat_list_detail_key}})" class="form-control" placeholder="Type message..." rows="1" required = required></textarea>
+                                            <button type="submit" class="btn prepend" id="send_message_{{$chat_list_detail_key}}"  ><i data-eva="paper-plane"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="middle" id="scroll">
-                            <div class="container">
-                                <ul>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                </div>
-                                            </div>
-                                            <span>07:30am</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>Many desktop publishing packages.</p>
-                                                </div>
-                                            </div>
-                                            <span>11:56am</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <div class="attachment">
-                                                        <a href="#" class="round"><i data-eva="file-text"></i></a>
-                                                        <div class="meta">
-                                                            <a href="#"><h5>build-plugins.js</h5></a>
-                                                            <span>3kb</span>
+                            <!-- Start of Utility -->
+                            <div class="utility">
+                                <div class="container">
+                                    <button type="button" class="close" data-utility="open"><i data-eva="close"></i></button>
+                                    <button type="button" class="btn primary" data-toggle="modal" data-target="#compose">Add people</button>
+                                    <ul class="nav" role="tablist">
+                                        <li><a href="#users" class="active" data-toggle="tab" role="tab" aria-controls="users" aria-selected="true">Users</a></li>
+                                        <li><a href="#files" data-toggle="tab" role="tab" aria-controls="files" aria-selected="false">Files</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <!-- Start of Users -->
+                                        <div class="tab-pane fade active show" id="users" role="tabpanel">
+                                            <h4>Users</h4>
+                                            <hr>
+                                            <ul class="users">
+                                                <li>
+                                                    <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                                    <div class="content">
+                                                        <h5>Ham Chuwon</h5>
+                                                        <span>Florida, US</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <span>01:03pm</span>
+                                                </li>
+                                                <li>
+                                                    <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-2.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                                    <div class="content">
+                                                        <h5>Quincy Hensen</h5>
+                                                        <span>Shanghai, China</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                                    <div class="content">
+                                                        <h5>Mark Hog</h5>
+                                                        <span>Olso, Norway</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-4.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                                    <div class="content">
+                                                        <h5>Sanne Viscaal</h5>
+                                                        <span>Helena, Montana</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                                    <div class="content">
+                                                        <h5>Alex Just</h5>
+                                                        <span>London, UK</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-6.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
+                                                    <div class="content">
+                                                        <h5>Arturo Thomas</h5>
+                                                        <span>Vienna, Austria</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>It was popularised in the 1960s.</p>
-                                                </div>
+                                        <!-- End of Users -->
+                                        <!-- Start of Files -->
+                                        <div class="tab-pane fade" id="files" role="tabpanel">
+                                            <h4>Files</h4>
+                                            <div class="upload">
+                                                <label>
+                                                    <input type="file">
+                                                    <span>Drag & drop files here</span>
+                                                </label>
                                             </div>
-                                            <span>05:42pm</span>
+                                            <ul class="files">
+                                                <li>
+                                                    <ul class="avatars">
+                                                        <li><button class="btn round"><i data-eva="file-text"></i></button></li>
+                                                        <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"></a></li>
+                                                    </ul>
+                                                    <div class="meta">
+                                                        <a href="#"><h5>workbox.js</h5></a>
+                                                        <span>2kb</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <ul class="avatars">
+                                                        <li><button class="btn round"><i data-eva="folder"></i></button></li>
+                                                        <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-2.jpg') }}" alt="avatar"></a></li>
+                                                    </ul>
+                                                    <div class="meta">
+                                                        <a href="#"><h5>bug_report</h5></a>
+                                                        <span>1kb</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <ul class="avatars">
+                                                        <li><button class="btn round"><i data-eva="briefcase"></i></button></li>
+                                                        <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar"></a></li>
+                                                    </ul>
+                                                    <div class="meta">
+                                                        <a href="#"><h5>nuget.zip</h5></a>
+                                                        <span>7mb</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <ul class="avatars">
+                                                        <li><button class="btn round"><i data-eva="image-2"></i></button></li>
+                                                        <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-4.jpg') }}" alt="avatar"></a></li>
+                                                    </ul>
+                                                    <div class="meta">
+                                                        <a href="#"><h5>clearfix.jpg</h5></a>
+                                                        <span>1kb</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <ul class="avatars">
+                                                        <li><button class="btn round"><i data-eva="folder"></i></button></li>
+                                                        <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar"></a></li>
+                                                    </ul>
+                                                    <div class="meta">
+                                                        <a href="#"><h5>package</h5></a>
+                                                        <span>4mb</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <ul class="avatars">
+                                                        <li><button class="btn round"><i data-eva="file-text"></i></button></li>
+                                                        <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-6.jpg') }}" alt="avatar"></a></li>
+                                                    </ul>
+                                                    <div class="meta">
+                                                        <a href="#"><h5>plugins.js</h5></a>
+                                                        <span>3kb</span>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <button type="button" class="dropdown-item">Edit</button>
+                                                            <button type="button" class="dropdown-item">Share</button>
+                                                            <button type="button" class="dropdown-item">Delete</button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>It is a long established fact that a reader will be distracted.</p>
-                                                </div>
-                                            </div>
-                                            <span>08:20pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                                                </div>
-                                            </div>
-                                            <span>10:15pm <i data-eva="done-all"></i></span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="bottom">
-                                <form>
-                                    <textarea class="form-control" placeholder="Type message..." rows="1"></textarea>
-                                    <button type="submit" class="btn prepend"><i data-eva="paper-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start of Utility -->
-                    <div class="utility">
-                        <div class="container">
-                            <button type="button" class="close" data-utility="open"><i data-eva="close"></i></button>
-                            <button type="button" class="btn primary" data-toggle="modal" data-target="#compose">Add people</button>
-                            <ul class="nav" role="tablist">
-                                <li><a href="#users" class="active" data-toggle="tab" role="tab" aria-controls="users" aria-selected="true">Users</a></li>
-                                <li><a href="#files" data-toggle="tab" role="tab" aria-controls="files" aria-selected="false">Files</a></li>
-                            </ul>
-                            <div class="tab-content">
-                                <!-- Start of Users -->
-                                <div class="tab-pane fade active show" id="users" role="tabpanel">
-                                    <h4>Users</h4>
-                                    <hr>
-                                    <ul class="users">
-                                        <li>
-                                            <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Ham Chuwon</h5>
-                                                <span>Florida, US</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-2.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Quincy Hensen</h5>
-                                                <span>Shanghai, China</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Mark Hog</h5>
-                                                <span>Olso, Norway</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-4.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Sanne Viscaal</h5>
-                                                <span>Helena, Montana</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Alex Just</h5>
-                                                <span>London, UK</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-6.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Arturo Thomas</h5>
-                                                <span>Vienna, Austria</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- End of Users -->
-                                <!-- Start of Files -->
-                                <div class="tab-pane fade" id="files" role="tabpanel">
-                                    <h4>Files</h4>
-                                    <div class="upload">
-                                        <label>
-                                            <input type="file">
-                                            <span>Drag & drop files here</span>
-                                        </label>
-                                    </div>
-                                    <ul class="files">
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="file-text"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>workbox.js</h5></a>
-                                                <span>2kb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="folder"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-2.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>bug_report</h5></a>
-                                                <span>1kb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="briefcase"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>nuget.zip</h5></a>
-                                                <span>7mb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="image-2"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-4.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>clearfix.jpg</h5></a>
-                                                <span>1kb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="folder"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>package</h5></a>
-                                                <span>4mb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="file-text"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-6.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>plugins.js</h5></a>
-                                                <span>3kb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- End of Files -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Utility -->
-                </div>
-            </div>
-            <!-- End of Chat Room -->
-            <!-- Start of Chat Room -->
-            <div class="tab-pane fade" id="chat2" role="tabpanel">
-                <div class="item">
-                    <div class="content">
-                        <div class="container">
-                            <div class="top">
-                                <div class="headline">
-                                    <img src="{{ asset('chat/dist/img/avatars/avatar-group-1.jpg') }}" alt="avatar">
-                                    <div class="content">
-                                        <h5>The Musketeers</h5>
-                                        <span>Group discussion</span>
+                                        <!-- End of Files -->
                                     </div>
                                 </div>
-                                <ul>
-                                    <li><button type="button" class="btn"><i data-eva="video" data-eva-animation="pulse"></i></button></li>
-                                    <li><button type="button" class="btn"><i data-eva="phone" data-eva-animation="pulse"></i></button></li>
-                                    <li><button type="button" class="btn" data-toggle="modal" data-target="#compose"><i data-eva="person-add" data-eva-animation="pulse"></i></button></li>
-                                    <li><button type="button" class="btn" data-utility="open"><i data-eva="info" data-eva-animation="pulse"></i></button></li>
-                                    <li><button type="button" class="btn round" data-chat="open"><i data-eva="arrow-ios-back"></i></button></li>
-                                    <li><button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical" data-eva-animation="pulse"></i></button>
-                                        <div class="dropdown-menu">
-                                            <button type="button" class="dropdown-item"><i data-eva="video"></i>Video call</button>
-                                            <button type="button" class="dropdown-item"><i data-eva="phone"></i>Voice call</button>
-                                            <button type="button" class="dropdown-item" data-toggle="modal" data-target="#compose"><i data-eva="person-add"></i>Add people</button>
-                                            <button type="button" class="dropdown-item" data-utility="open"><i data-eva="info"></i>Information</button>
-                                        </div>
-                                    </li>
-                                </ul>
                             </div>
-                        </div>
-                        <div class="middle">
-                            <div class="container">
-                                <ul>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                                </div>
-                                            </div>
-                                            <span>07:30am</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>Many desktop publishing packages.</p>
-                                                </div>
-                                            </div>
-                                            <span>11:56am</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>It has survived not only five centuries, but also the leap into electronic typesetting.</p>
-                                                </div>
-                                            </div>
-                                            <span>01:03pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>It was popularised in the 1960s.</p>
-                                                </div>
-                                            </div>
-                                            <span>05:42pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>It is a long established fact that a reader will be distracted.</p>
-                                                </div>
-                                            </div>
-                                            <span>08:20pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar">
-                                        <div class="content">
-                                            <div class="message">
-                                                <div class="bubble">
-                                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                                                </div>
-                                            </div>
-                                            <span>10:15pm <i data-eva="done-all"></i></span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="bottom">
-                                <form>
-                                    <textarea class="form-control" placeholder="Type message..." rows="1"></textarea>
-                                    <button type="submit" class="btn prepend"><i data-eva="paper-plane"></i></button>
-                                </form>
-                            </div>
+                            <!-- End of Utility -->
                         </div>
                     </div>
-                    <!-- Start of Utility -->
-                    <div class="utility">
-                        <div class="container">
-                            <button type="button" class="close" data-utility="open"><i data-eva="close"></i></button>
-                            <button type="button" class="btn primary" data-toggle="modal" data-target="#compose">Add people</button>
-                            <ul class="nav" role="tablist">
-                                <li><a href="#users2" class="active" data-toggle="tab" role="tab" aria-controls="users2" aria-selected="true">Users</a></li>
-                                <li><a href="#files2" data-toggle="tab" role="tab" aria-controls="files2" aria-selected="false">Files</a></li>
-                            </ul>
-                            <div class="tab-content">
-                                <!-- Start of Users -->
-                                <div class="tab-pane fade active show" id="users2" role="tabpanel">
-                                    <h4>Users</h4>
-                                    <hr>
-                                    <ul class="users">
-                                        <li>
-                                            <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Ham Chuwon</h5>
-                                                <span>Florida, US</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-2.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Quincy Hensen</h5>
-                                                <span>Shanghai, China</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Mark Hog</h5>
-                                                <span>Olso, Norway</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-4.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Sanne Viscaal</h5>
-                                                <span>Helena, Montana</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status offline"><img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Alex Just</h5>
-                                                <span>London, UK</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="status online"><img src="{{ asset('chat/dist/img/avatars/avatar-male-6.jpg') }}" alt="avatar"><i data-eva="radio-button-on"></i></div>
-                                            <div class="content">
-                                                <h5>Arturo Thomas</h5>
-                                                <span>Vienna, Austria</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- End of Users -->
-                                <!-- Start of Files -->
-                                <div class="tab-pane fade" id="files2" role="tabpanel">
-                                    <h4>Files</h4>
-                                    <div class="upload">
-                                        <label>
-                                            <input type="file">
-                                            <span>Drag & drop files here</span>
-                                        </label>
-                                    </div>
-                                    <ul class="files">
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="file-text"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-1.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>workbox.js</h5></a>
-                                                <span>2kb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="folder"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-2.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>bug_report</h5></a>
-                                                <span>1kb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="briefcase"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-3.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>nuget.zip</h5></a>
-                                                <span>7mb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="image-2"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-4.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>clearfix.jpg</h5></a>
-                                                <span>1kb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="folder"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-5.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>package</h5></a>
-                                                <span>4mb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <ul class="avatars">
-                                                <li><button class="btn round"><i data-eva="file-text"></i></button></li>
-                                                <li><a href="#"><img src="{{ asset('chat/dist/img/avatars/avatar-male-6.jpg') }}" alt="avatar"></a></li>
-                                            </ul>
-                                            <div class="meta">
-                                                <a href="#"><h5>plugins.js</h5></a>
-                                                <span>3kb</span>
-                                            </div>
-                                            <div class="dropdown">
-                                                <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-eva="more-vertical"></i></button>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <button type="button" class="dropdown-item">Edit</button>
-                                                    <button type="button" class="dropdown-item">Share</button>
-                                                    <button type="button" class="dropdown-item">Delete</button>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- End of Files -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Utility -->
-                </div>
-            </div>
-            <!-- End of Chat Room -->
+                    <!-- End of Chat Room -->
+            @endforeach
+
         </div>
     </div>
     <!-- End of Chat -->

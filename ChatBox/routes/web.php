@@ -12,7 +12,6 @@
 */
 
 
-
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
@@ -23,3 +22,6 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 ###################################################################################################
 
 Route::get('/turn_on_login', 'TurnOnLoginController@index');
+Route::resource('chat', 'ChatController');
+
+Route::post('/store', 'HomeController@store');
